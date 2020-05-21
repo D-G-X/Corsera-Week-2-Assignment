@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background: #000000;
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  font-family: "Verdana"; 
+  margin: 25px ; 
+}
+.outborder{
+  border: 0px solid white;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+#iOS, #droid, #windows{
+  border: 1px solid #ffffff;
+  height: 265px;
+  width: 312px;
+  float: left;
+  box-sizing: border-box;
+  margin:7px;
+}
+#droid{
+  background: #a4c639 ;
+}
+#windows{
+  background: #3369EF;
+}
+#headi,#headd,#headw{
+  border: 1px solid white;
+  height: 30px;
+  width: 150px;
+  padding: auto;
+  position : relative;
+  top: 0.5px;
+  left: 160.5px;
+  text-align:center;
+  padding:5px 0px 5px 0px;
+  font-size:18px;
+  color: #BCBCBC;
+  font-family: "Arial";
+  background: black;
+  font-weight: bold;
+}
+#parai,#parad,#paraw
+{
+  margin: 15px 5px 5px 5px;
+  border: 0px solid white;
+  height:200px;
+  font-family: "Courier New";
+  padding: 12px;
+}
+#headw{
+  color:#3369EF ; 
+  border-color: #3369EF ; 
+}
+#paraw,#parad{color: black;}
+#headd{
+  color:#a4c639;
+  border-color :#a4c639;
+}
+/* grid system*/
+/*Desktop grater than 992px */
+
+@media (min-width: 992px) {
+  .dk-1, .dk-2, .dk-3, .dk-4, .dk-5, .dk-6, .dk-7, .dk-8, .dk-9, .dk-10, .dk-11, .dk-12 {
+    float: left;
+  }
+  .dk-1 {
+    width: 8.33%;
+  }
+  .dk-2 {
+    width: 16.66%;
+  }
+  .dk-3 {
+    width: 25%;
+  }
+  .dk-4 {
+    width: 33.33%;
+  }
+  .dk-5 {
+    width: 41.66%;
+  }
+  .dk-6 {
+    width: 50%;
+  }
+  .dk-7 {
+    width: 58.33%;
+  }
+  .dk-8 {
+    width: 66.66%;
+  }
+  .dk-9 {
+    width: 74.99%;
+  }
+  .dk-10 {
+    width: 83.33%;
+  }
+  .dk-11 {
+    width: 91.66%;
+  }
+  .dk-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tab-1, .tab-2, .tab-3, .tab-4, .tab-5, .tab-6, .tab-7, .tab-8, .tab-9, .tab-10, .tab-11, .tab-12 {
+    float: left;
+  }
+  .tab-1 {
+    width: 8.33%;
+  }
+  .tab-2 {
+    width: 16.66%;
+  }
+  .tab-3 {
+    width: 25%;
+  }
+  .tab-4 {
+    width: 33.33%;
+  }
+  .tab-5 {
+    width: 41.66%;
+  }
+  .tab-6 {
+    width: 50%;
+  }
+  .tab-7 {
+    width: 58.33%;
+  }
+  .tab-8 {
+    width: 66.66%;
+  }
+  .tab-9 {
+    width: 74.99%;
+  }
+  .tab-10 {
+    width: 83.33%;
+  }
+  .tab-11 {
+    width: 91.66%;
+  }
+  .tab-12 {
+    width: 100%;
+  }
+}
